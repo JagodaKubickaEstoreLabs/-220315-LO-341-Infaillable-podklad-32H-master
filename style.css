@@ -751,6 +751,16 @@ body {
 #es-loreal.es-loreal .es-routine__title {
   font-size: 28px;
 }
+#es-loreal.es-loreal .es-endtext {
+  padding-top: 80px;
+  width: 100%;
+  line-height: 1px;
+}
+#es-loreal.es-loreal .es-endtext__text {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+}
 @media screen and (min-width: 768px) {
   #es-loreal.es-loreal .es-kv__banner {
     position: relative;
@@ -942,6 +952,15 @@ body {
   }
   #es-loreal.es-loreal .es-routine__title {
     font-size: 28px;
+  }
+  #es-loreal.es-loreal .es-endtext {
+    padding-top: 80px;
+    width: 100%;
+    line-height: 1px;
+  }
+  #es-loreal.es-loreal .es-endtext__text {
+    font-size: 10px;
+    text-align: center;
   }
 }
 
