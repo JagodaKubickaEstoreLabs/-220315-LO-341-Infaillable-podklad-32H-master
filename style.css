@@ -365,6 +365,10 @@ body {
   color: #fff;
   font-size: 42px;
 }
+#es-loreal.es-loreal .es-women__title:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
 #es-loreal.es-loreal .es-women__text {
   text-align: center;
   color: rgba(255, 255, 255, 0.8);

@@ -322,6 +322,10 @@ body {
         text-align: center;
         color: #fff;
         font-size: 42px;
+        &:hover{
+          transition: all .2s ease-in-out;
+          transform: scale(1.1);
+        }
       }
       &__text{
         text-align: center;
