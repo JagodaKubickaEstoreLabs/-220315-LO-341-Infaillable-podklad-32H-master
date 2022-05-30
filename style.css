@@ -746,7 +746,7 @@ body {
   margin-bottom: 0;
 }
 #es-loreal.es-loreal .es-routine__content {
-  min-width: 500px;
+  min-width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -948,7 +948,7 @@ body {
     margin-bottom: -50px;
   }
   #es-loreal.es-loreal .es-routine__content {
-    min-width: 500px;
+    min-width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -963,8 +963,11 @@ body {
     line-height: 1px;
   }
   #es-loreal.es-loreal .es-endtext__text {
+    display: flex;
+    width: auto;
     font-size: 10px;
     text-align: center;
+    width: 100%;
   }
 }
 

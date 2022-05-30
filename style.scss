@@ -648,7 +648,7 @@ body {
       }
     }
     &__content{
-      min-width: 500px;
+      min-width: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -871,7 +871,7 @@ body {
         }
       }
       &__content{
-        min-width: 500px;
+        min-width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -887,8 +887,11 @@ body {
       width: 100%;
       line-height: 1px;
       &__text{
+        display: flex;
+        width: auto;
         font-size: 10px;
         text-align: center;
+        width: 100%;
       }
     }
   }
