@@ -757,6 +757,12 @@ body {
         padding-top: 32px;
         display: block;
       }
+      &__packshot{
+        img{
+          height: 500px;
+          min-width: 450px;
+        }
+      }
       &__img {
         &--line-1 {
           position: relative;

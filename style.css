@@ -841,6 +841,10 @@ body {
     padding-top: 32px;
     display: block;
   }
+  #es-loreal.es-loreal .es-benefits__packshot img {
+    height: 500px;
+    min-width: 450px;
+  }
   #es-loreal.es-loreal .es-benefits__img--line-1 {
     position: relative;
     left: 56px;
