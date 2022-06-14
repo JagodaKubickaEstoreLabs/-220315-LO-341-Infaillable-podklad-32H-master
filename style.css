@@ -341,14 +341,6 @@ body {
   padding: 24px;
   height: auto;
 }
-#es-loreal.es-loreal .es-women__container:hover .es-women__title {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-}
-#es-loreal.es-loreal .es-women__container:hover .es-women__text {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-}
 #es-loreal.es-loreal .es-women__container--one {
   background-image: url("/images/bg-1.png");
   background-position: center;
