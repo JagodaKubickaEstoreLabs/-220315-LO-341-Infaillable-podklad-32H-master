@@ -298,6 +298,16 @@ body {
         justify-content: flex-start;
         padding: 24px;
         height: auto;
+        &:hover{
+          .es-women__title{
+            transition: all .2s ease-in-out;
+            transform: scale(1.1);
+          }
+          .es-women__text{
+            transition: all .2s ease-in-out;
+            transform: scale(1.1);
+          }
+        }
       }
       &__container--one{
         background-image: url('/images/bg-1.png');
@@ -322,10 +332,7 @@ body {
         text-align: center;
         color: #fff;
         font-size: 42px;
-        &:hover{
-          transition: all .2s ease-in-out;
-          transform: scale(1.1);
-        }
+
       }
       &__text{
         text-align: center;
@@ -333,6 +340,7 @@ body {
         font-size: 18px;
         text-transform: uppercase;
       }
+      
   }
 
   .es-shades {
@@ -360,7 +368,7 @@ body {
       gap: 64px 32px;
     }
     &__single {
-      width: 171px;
+      width: 90px;
     }
     &__img {
       @include img;

@@ -341,6 +341,14 @@ body {
   padding: 24px;
   height: auto;
 }
+#es-loreal.es-loreal .es-women__container:hover .es-women__title {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+#es-loreal.es-loreal .es-women__container:hover .es-women__text {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
 #es-loreal.es-loreal .es-women__container--one {
   background-image: url("/images/bg-1.png");
   background-position: center;
@@ -364,10 +372,6 @@ body {
   text-align: center;
   color: #fff;
   font-size: 42px;
-}
-#es-loreal.es-loreal .es-women__title:hover {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
 }
 #es-loreal.es-loreal .es-women__text {
   text-align: center;
@@ -411,7 +415,7 @@ body {
   gap: 64px 32px;
 }
 #es-loreal.es-loreal .es-shades__single {
-  width: 171px;
+  width: 90px;
 }
 #es-loreal.es-loreal .es-shades__img {
   max-width: 100%;
