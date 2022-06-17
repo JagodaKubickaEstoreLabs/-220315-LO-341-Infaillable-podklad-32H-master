@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
-  max-width: 998px;
+  max-width: 930px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -166,7 +166,7 @@ body {
       gap: 48px 0;
     }
     &__single {
-      width: 332px;
+      width: 300px;
       &:hover {
         .es-benefits__img--bg {
           transform: scale(1.1);
@@ -358,7 +358,7 @@ body {
       gap: 64px 32px;
     }
     &__single {
-      width: 90px;
+      width: 85px;
     }
     &__img {
       @include img;
@@ -784,7 +784,7 @@ body {
     }
   }
 
-  @media screen and (min-width: 998px) {
+  @media screen and (min-width: 930px) {
     .es-benefits {
       &__banner {
         display: flex;
@@ -844,12 +844,12 @@ body {
     .es-slider {
       .swiper-button-next,
       .swiper-container-rtl .swiper-button-prev {
-        right: -48px;
+        right: -28px;
         left: auto;
       }
       .swiper-button-prev,
       .swiper-container-rtl .swiper-button-next {
-        left: -48px;
+        left: -28px;
         right: auto;
       }
       .swiper-button-next,
@@ -859,7 +859,7 @@ body {
     }
     .es-routine{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       padding: 32px;
       &__img{
         display: flex;
